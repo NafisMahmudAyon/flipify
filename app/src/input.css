@@ -2,4 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+.inner {
+  transform-style: preserve-3d;
+  transform: rotateY(0);
+}
 
+.outer {
+  perspective: 1000px;
+}
+
+.outer .horizontal {
+  transform: rotateY(0deg);
+}
+
+.outer .vertical {
+  transform: rotateX(0deg);
+}
+.outer:hover .horizontal {
+  transform: rotateY(180deg);
+}
+
+.outer:hover .vertical {
+  transform: rotateX(180deg);
+}

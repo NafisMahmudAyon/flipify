@@ -1,8 +1,7 @@
 // import Image from "next/image";
 
-import { FlipBox } from "./src";
-import { Back } from "./src/components/FlipBox/Back";
-import { Front } from "./src/components/FlipBox/Front";
+// import { Back, FlipBox, Front } from "./src";
+import { Back, FlipBox, Front } from "@/lib/cjs";
 
 
 
